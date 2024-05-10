@@ -1,0 +1,82 @@
+%!TEX TS-program = xelatex
+\documentclass[a4paper, extended]{comcv}
+
+\usepackage[english]{babel}
+
+\title{Simone Gheller's CV}
+\fullname{Simone}{Gheller}{}
+\cvtitle{Software Engineer}
+\email{simone.gheller1@gmail.com}
+\github{https://github.com/simone-gheller}{GitHub}
+\currentdate{May 2024}
+
+\begin{document}
+\section{Work Experience}
+\combosection{SumoLogic}{Software Engineer}{Milano (Italy) Oct 2022 - Present}{
+  \begin{tightlist}
+    \item Maintained the core app code by performing bug-fixing and working on improvements (eg new APIs) with Django, and developed UT, IT and E2E tests using Django and NodeJS with Cypress
+    \item Implemented the company SRE rules to new products by leveraging the existing KPI system and applying it to a set of monitors to track the app health.
+    \item Developed CI/CD pipelines following a declarative approach using Jenkins with the DSL plugin, and implementing the IaC pattern using Git, Terraform and AWS. 
+  \end{tightlist}
+}
+
+\combosection{Capgemini}{Release Manager}{Milano (Italy) May 2021 - Oct 2022}{
+    \begin{tightlist}
+        \item Organized release elements to match the delivery with the schedule by assuming the role of coordinator between the dev team and the functional team.
+        \item Performed troubleshooting and 1st level support on a Kubernetes cluster with linux based containers in case of outages, using Splunk, Dynatrace.
+    \end{tightlist}
+}
+
+\combosection{Capgemini}{Release Manager}{Milano (Italy) Nov 2020 - May 2021}{
+    \begin{tightlist}
+        \item Developed DevOps chains that include cross-platform (web and mobile) app deployments and Continuous Quality mechanisms, with Jenkins, SonarQube, NodeJS, Docker.
+        \item Developed CI/CD chains to support the dev team with quicker releases using Azure cloud
+    \end{tightlist}
+}
+
+\section{Projects}
+\combosection{\href{https://github.com/riccardo-nannini/Santorini/}{Santorini - BSc Thesis}}{Java, Maven, Swing}{}{
+  \begin{tightlist}
+    \item Transposition of the board game “Santorini” implemented in Java as an online multiplayer video game, performed as a member of a development team of three people.
+  \end{tightlist}
+}
+\vspace{\topsep}
+\combosection{\href{https://github.com/simone-gheller/gtoking}{GTO King}}{Javascript, NodeJs, React, Express, REST Apis}{}{
+  \begin{tightlist}
+    \item Developed a web App that simulates some case scenarios of a poker game. The app is completly built with Javascript and is composed by an api backend and a frontend based on React. 
+  \end{tightlist}
+}
+\vspace{\topsep}
+
+\section{Skills}
+\combosection{Programming Languages}{}{}{
+  Python, Javascript (+NodeJS), Java, Scala, C, Bash
+}
+\vspace{\topsep}
+\combosection{Operations}{}{}{
+  Docker, Kubernetes, AWS, OpenAPI std, Jenkins, Git, Splunk, Sumo Logic
+}
+\vspace{\topsep}
+\combosection{Web frameworks}{}{}{
+  Django (+DRF), Spring, React
+}
+\vspace{\topsep}
+\combosection{Databases}{}{}{
+  Postgres (+Citus), Redis, MySql, Oracle
+}
+\vspace{\topsep}
+\combosection{languages}{}{}{
+  English - professional, Italian - Native
+}
+\vspace{\topsep}
+
+
+\section{Education}
+\combosection{Politecnico di Milano}{B.S.c in Computer Engineering}{2016-2020}{
+  Algorithms and Data structures, Relational Databases, Web technologies, Software Engineering, OOP, AOP, Networks, SDN, Economics and Business Organization
+  }
+
+\vspace{\topsep}
+
+
+\end{document}
